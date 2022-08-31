@@ -1,7 +1,7 @@
 import * as React from 'react'
 import type { HeadFC } from 'gatsby'
 import Seo from '../components/seo'
-import { Hero } from '../sections'
+import { Hero } from '../layouts'
 
 const IndexPage = () => {
   return <Hero />
