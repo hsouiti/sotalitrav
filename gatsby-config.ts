@@ -30,6 +30,14 @@ const config: GatsbyConfig = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Qwitcher Grypen', 'cursive'],
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Sotalitrav`,
@@ -38,7 +46,7 @@ const config: GatsbyConfig = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon: `src/images/icons/icon.png`,
+        icon: `src/assets/icons/icon.png`,
       },
     },
   ],
