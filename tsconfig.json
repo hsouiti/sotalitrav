@@ -105,6 +105,7 @@
     "./src/**/*",
     "./gatsby-node.ts",
     "gatsby-config.tsx",
-    "./plugins/**/*"
+    "./plugins/**/*",
+    "content/nav-data.tsx"
   ]
 }

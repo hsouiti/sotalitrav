@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    * {
+        @apply box-border;
+    }
+    body {
+        @apply font-primary min-h-[2000px];
+    }
+    .container {
+        /* padding: 1rem 2rem; */
+       /*  max-width: 100%;
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: auto 1fr auto; */
+    }
+   
+
+
+}
+
+@layer components {
+    .btn {
+        
+    }
+    section {
+        @apply relative py-12 sm:bg-red-300 sm:py-16 lg:bg-primary lg:pt-20 lg:pb-36 border 3xl:bg-blue-300;
+    }   
+}
