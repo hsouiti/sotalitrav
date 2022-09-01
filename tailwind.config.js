@@ -3,7 +3,7 @@ module.exports = {
   content: [
     './src/pages/**/*.{js,jsx,ts,tsx}',
     './src/components/**/*.{js,jsx,ts,tsx}',
-    './src/sections/**/*.{js,jsx,ts,tsx}',
+    './src/layouts/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
     extend: {
@@ -12,7 +12,8 @@ module.exports = {
         secondary: '#00f6ff',
       },
       fontFamily: {
-        primary: ['Poppins', 'sans-serif'],
+        heading: ['Arvo', 'serif'],
+        text: ['Poppins', 'sans-serif'],
       },
       screens: {
         '3xl': '1660px',
@@ -21,3 +22,6 @@ module.exports = {
   },
   plugins: [],
 }
+
+// fonts 
+// https://www.websitebuilderexpert.com/designing-websites/pick-best-font-style-for-website/

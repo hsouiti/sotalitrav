@@ -33,7 +33,7 @@ const config: GatsbyConfig = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Qwitcher Grypen', 'cursive'],
+          families: ['Arvo', 'serif'],
         },
       },
     },
@@ -46,7 +46,7 @@ const config: GatsbyConfig = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon: `src/assets/icons/icon.png`,
+        icon: `src/assets/sotalitrav-logo.png`,
       },
     },
   ],
