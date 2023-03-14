@@ -3,7 +3,8 @@ const color = '#9600ab'
 
 export default function Page() {
   return (
-    <div style={{
+    <div
+      style={{
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
