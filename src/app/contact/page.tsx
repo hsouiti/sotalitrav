@@ -1,20 +1,22 @@
-import Link from "next/link";
 import React from "react";
-import Form from "../layouts/form";
-import Hero from "../layouts/hero";
+import Form from "../../layouts/form";
+import Hero from "../../layouts/hero";
 const color = '#9600ab'
 
+//https://www.youtube.com/watch?v=t2LvPXHLrek
+
 export default function Page() {
+  return <Form />
   //return <Hero />
   return (
     <div
       style={{
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      paddingTop: '150px',
-      flexDirection: 'column'
-    }}>
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        paddingTop: '150px',
+        flexDirection: 'column'
+      }}>
 
       <h1 style={{ color: color, marginBottom: '50px', fontSize: '1.7rem' }}>Site bientôt en ligne</h1>
       <div style={{ textAlign: 'center' }}>
@@ -22,12 +24,6 @@ export default function Page() {
         <h4 style={{ color, fontWeight: '500', textTransform: 'uppercase', marginTop: '5px' }}>Amenagement - construction - negoce</h4>
         <h4 style={{ fontWeight: '500', marginTop: '5px' }}>Email : contact.sotalitrav@gmail.com</h4>
       </div>
-
-      {/*   <Link href='/contact' className="">
-        <div style={{ backgroundColor: color }} className="py-2 px-20 mt-6 text-white">
-          Nous Contactez
-        </div>
-      </Link> */}
-    </div> 
+    </div>
   );
 }
