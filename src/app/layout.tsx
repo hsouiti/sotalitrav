@@ -1,5 +1,8 @@
 import React from "react";
+import './globals.css'
 import { Inter, Ubuntu } from 'next/font/google';
+import Header from "../layouts/header";
+import Footer from "../layouts/footer";
 
 const inter = Inter({
   subsets: ['latin'],
@@ -15,7 +18,14 @@ const ubuntu = Ubuntu({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={ubuntu.className}>
-      <body>{children}</body>
+      <body>
+        <div className="main">
+          {/*  <Header /> */}
+          {children}
+          {/*  <Footer /> */}
+        </div>
+
+      </body>
     </html>
   );
 }

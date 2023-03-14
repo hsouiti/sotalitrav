@@ -1,7 +1,9 @@
 import React from "react";
+import Hero from "../layouts/hero";
 const color = '#9600ab'
 
 export default function Page() {
+  //return <Hero />
   return (
     <div
       style={{
@@ -18,6 +20,6 @@ export default function Page() {
         <h4 style={{ color, fontWeight: '500', textTransform: 'uppercase', marginTop: '5px' }}>Amenagement - construction - negoce</h4>
         <h4 style={{ fontWeight: '500', marginTop: '5px' }}>Email : contact.sotalitrav@gmail.com</h4>
       </div>
-    </div>
+    </div> 
   );
 }
